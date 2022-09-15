@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Microsoft To Do Browser Extension',
+  title: 'Microsoft To Do 浏览器扩展',
   // tagline: 'Dinosaurs are cool',
   url: 'https://ms-todo.com',
   baseUrl: '/',
@@ -36,8 +36,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/WayneGongCN/microsoft-todo-browser-ext/tree/documents/',
+          editUrl: 'https://github.com/WayneGongCN/microsoft-todo-browser-ext-doc/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -57,28 +56,31 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Microsoft To Do Browser Extension',
+        title: 'Microsoft To Do 浏览器扩展',
         logo: {
-          alt: 'Microsoft To Do Browser Extension',
+          alt: 'Microsoft To Do 浏览器扩展',
           src: 'img/favicon.ico',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Docs',
+            docId: 'intro/index',
+            position: 'left',
+            label: '简介',
           },
-          // { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'doc',
+            docId: 'contribution/index',
+            position: 'left',
+            label: '参与贡献',
+          },
           {
             href: 'https://github.com/WayneGongCN/microsoft-todo-browser-ext',
             label: 'GitHub',
             position: 'right',
           },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          // { type: 'localeDropdown', position: 'right' },
         ],
       },
       footer: {
@@ -124,7 +126,7 @@ const config = {
           //   ],
           // },
         ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
