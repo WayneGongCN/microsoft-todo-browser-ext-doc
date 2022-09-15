@@ -1,0 +1,27 @@
+[
+  {
+    "name": "version",
+    "img": "https://img.shields.io/chrome-web-store/v/ffpljgmbiankjaokoefefmkoghcgoodn?style=social",
+    "url": "https://chrome.google.com/webstore/detail/microsoft-to-do-browser-e/ffpljgmbiankjaokoefefmkoghcgoodn"
+  },
+  {
+    "name": "users",
+    "img": "https://img.shields.io/chrome-web-store/users/ffpljgmbiankjaokoefefmkoghcgoodn?style=social",
+    "url": "https://chrome.google.com/webstore/detail/microsoft-to-do-browser-e/ffpljgmbiankjaokoefefmkoghcgoodn"
+  },
+  {
+    "name": "rating",
+    "img": "https://img.shields.io/chrome-web-store/stars/ffpljgmbiankjaokoefefmkoghcgoodn?style=social",
+    "url": "https://chrome.google.com/webstore/detail/microsoft-to-do-browser-e/ffpljgmbiankjaokoefefmkoghcgoodn/reviews"
+  },
+  {
+    "name": "stars",
+    "img": "https://img.shields.io/github/stars/waynegongcn/microsoft-todo-browser-ext?style=social",
+    "url": "https://github.com/WayneGongCN/microsoft-todo-browser-ext"
+  },
+  {
+    "name": "issues",
+    "img": "https://img.shields.io/github/issues/waynegongcn/microsoft-todo-browser-ext?style=social",
+    "url": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "issue",
+    "content": {
+      "zh-CN": "提议反馈",
+      "en": "Report issue"
+    },
+    "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues/new",
+    "props": {}
+  },
+  {
+    "name": "rate",
+    "content": {
+      "zh-CN": "为插件评分",
+      "en": "Rate extension"
+    },
+    "link": "https://chrome.google.com/webstore/detail/microsoft-to-do-browser-e/ffpljgmbiankjaokoefefmkoghcgoodn/reviews",
+    "props": {}
+  },
+  {
+    "name": "changelog",
+    "content": {
+      "zh-CN": "近期更新",
+      "en": "Changelog"
+    },
+    "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/blob/main/CHANGELOG.md",
+    "props": {}
+  },
+  {
+    "name": "support",
+    "content": {
+      "zh-CN": "请我喝咖啡",
+      "en": "Buy me a coffee"
+    },
+    "link": "https://www.buymeacoffee.com/waynegong",
+    "props": {}
+  }
+]
