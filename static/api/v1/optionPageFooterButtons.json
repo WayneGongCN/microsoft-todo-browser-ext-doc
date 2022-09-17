@@ -1,5 +1,14 @@
 [
   {
+    "name": "about",
+    "content": {
+      "zh-CN": "首页",
+      "en": "Home Page"
+    },
+    "link": "https://ms-todo.com",
+    "props": {}
+  },
+  {
     "name": "issue",
     "content": {
       "zh-CN": "提议反馈",
@@ -18,21 +27,15 @@
     "props": {}
   },
   {
-    "name": "about",
-    "content": {
-      "zh-CN": "首页",
-      "en": "Home Page"
-    },
-    "link": "https://ms-todo.com",
-    "props": {}
-  },
-  {
     "name": "support",
     "content": {
-      "zh-CN": "请我喝咖啡",
-      "en": "Buy me a coffee"
+      "zh-CN": "赞赏支持",
+      "en": "Support"
     },
-    "link": "https://www.buymeacoffee.com/waynegong",
+    "link": {
+      "zh-CN": "https://ms-todo.com/support",
+      "en": "https://www.buymeacoffee.com/waynegong"
+    },
     "props": {}
   }
 ]
