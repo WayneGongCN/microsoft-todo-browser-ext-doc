@@ -18,12 +18,12 @@
     "props": {}
   },
   {
-    "name": "changelog",
+    "name": "about",
     "content": {
-      "zh-CN": "近期更新",
-      "en": "Changelog"
+      "zh-CN": "首页",
+      "en": "Home Page"
     },
-    "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/blob/main/CHANGELOG.md",
+    "link": "https://ms-todo.com",
     "props": {}
   },
   {
