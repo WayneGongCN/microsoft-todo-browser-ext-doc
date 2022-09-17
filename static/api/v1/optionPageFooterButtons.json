@@ -11,10 +11,13 @@
   {
     "name": "issue",
     "content": {
-      "zh-CN": "提议反馈",
+      "zh-CN": "反馈问题",
       "en": "Report issue"
     },
-    "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues/new",
+    "link": {
+      "zh-CN": "http://ms-todo.com/docs/contribution/report-issues",
+      "en": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues/new/choose"
+    },
     "props": {}
   },
   {
