@@ -14,6 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
+
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'waynegongcn', // Usually your GitHub org/user name.
@@ -132,6 +134,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        { name: 'keywords', content: 'Microsoft To Do 浏览器扩展' }
+      ]
     }),
 };
 

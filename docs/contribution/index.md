@@ -8,12 +8,12 @@ Microsoft To Do 浏览器扩展是一款免费的开源软件，我们欢迎任�
 
 
 
-## 🔍 [反馈问题](./report-issues.md)
+## ❓ [反馈问题](./report-issues.md)
 
 如果您在使用过程中遇到了问题，或者您有一个非常棒的想法，我们非常乐意收到您的反馈！
 
 
-## 📖 [贡献指南](./contribution-guid.md)
+## 🧭 [贡献指南](./contribution-guid.md)
 
 如果您有额外的时间，希望参与本项目并贡献代码，请阅读本节内容。
 
