@@ -3,12 +3,12 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const DEFAULT_TITLE = 'Microsoft To Do 浏览器扩展'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Microsoft To Do Browser Extension',
-  // tagline: 'Dinosaurs are cool',
+  title: DEFAULT_TITLE,
+  tagline: 'To Do 让你从工作到娱乐都保持专注',
   url: 'https://ms-todo.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -26,7 +26,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
     locales: ['en', 'zh-Hans'],
   },
 
@@ -62,9 +62,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Microsoft To Do 浏览器扩展',
+        title: DEFAULT_TITLE,
         logo: {
-          alt: 'Microsoft To Do 浏览器扩展',
+          alt: DEFAULT_TITLE,
           src: 'img/favicon.ico',
         },
         items: [
@@ -98,7 +98,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       metadata: [
-        { name: 'keywords', content: 'Microsoft To Do 浏览器扩展' }
+        { name: 'keywords', content: DEFAULT_TITLE }
       ]
     }),
 };

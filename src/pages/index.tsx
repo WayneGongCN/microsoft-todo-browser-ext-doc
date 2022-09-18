@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Translate from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import styles from './index.module.css';
 import Link from '@docusaurus/Link';
 
@@ -11,8 +11,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title"><Translate>Microsoft To Do 浏览器扩展</Translate></h1>
-        <p className="hero__subtitle"><Translate>To Do 让你从工作到娱乐都保持专注</Translate></p>
+        <h1 className="hero__title"><Translate>{siteConfig.title}</Translate></h1>
+        <p className="hero__subtitle"><Translate>{siteConfig.tagline}</Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -28,13 +28,8 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description={`${siteConfig.title}`}>
+    <Layout title={translate({ message: siteConfig.title })} description={translate({ message: siteConfig.tagline })}>
       <HomepageHeader />
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
     </Layout>
   );
 }
