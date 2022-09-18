@@ -11,7 +11,7 @@ const config = {
   tagline: 'To Do 让你从工作到娱乐都保持专注',
   url: 'https://ms-todo.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -100,7 +100,7 @@ const config = {
       metadata: [
         { name: 'keywords', content: DEFAULT_TITLE }
       ]
-    }),
+    })
 };
 
 module.exports = config;
