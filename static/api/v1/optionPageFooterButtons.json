@@ -1,23 +1,11 @@
 [
   {
-    "name": "about",
-    "content": {
-      "zh-CN": "首页",
-      "en": "Home Page"
-    },
-    "link": "https://ms-todo.com",
-    "props": {}
-  },
-  {
     "name": "issue",
     "content": {
       "zh-CN": "反馈问题",
       "en": "Report issue"
     },
-    "link": {
-      "zh-CN": "http://ms-todo.com/docs/contribution/report-issues",
-      "en": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues/new/choose"
-    },
+    "link": "https://ms-todo.com/docs/contribution/report-issues",
     "props": {}
   },
   {
@@ -35,10 +23,7 @@
       "zh-CN": "赞赏支持",
       "en": "Support"
     },
-    "link": {
-      "zh-CN": "https://ms-todo.com/support",
-      "en": "https://www.buymeacoffee.com/waynegong"
-    },
+    "link": "https://ms-todo.com/support",
     "props": {}
   }
 ]
