@@ -20,11 +20,11 @@ Microsoft To Do 浏览器扩展 遵循 WebExtension i18n[^1] 国际化[^2] 标�
 
 以 Chrome 为例，在列表[^3] 中确认浏览器能支持您的国际化配置。
 
-在国际化目录[^4]，创建地区目录，添加 `messages.json` 文件开始翻译。
+进入 `i18n` 目录[^4]，创建地区文件夹，添加 `messages.json` 文件开始翻译。
 
 ## 修改翻译错误
 
-在国际化目录[^4]，找到翻译错误的 `messages.json` 文件，进行修改。
+在地区目录的 `messages.json` 中，找到翻译错误进行修改。
 
 
 [^1]: https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions/API/i18n

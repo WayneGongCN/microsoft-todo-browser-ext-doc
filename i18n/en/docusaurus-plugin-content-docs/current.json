@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.introSidebar.link.隐私政策": {
+    "message": "Privacy policy",
+    "description": "The label for link 隐私政策 in sidebar introSidebar, linking to /privacy-policy"
+  },
+  "sidebar.introSidebar.link.赞赏支持": {
+    "message": "Support",
+    "description": "The label for link 赞赏支持 in sidebar introSidebar, linking to /support"
+  },
+  "sidebar.introSidebar.link.更新日志": {
+    "message": "Changelog",
+    "description": "The label for link 更新日志 in sidebar introSidebar, linking to https://github.com/WayneGongCN/microsoft-todo-browser-ext/blob/main/CHANGELOG.md"
+  },
+  "sidebar.introSidebar.doc.反馈问题": {
+    "message": "Report bugs",
+    "description": "The label for the doc item 反馈问题 in sidebar introSidebar, linking to the doc contribution/report-issues"
+  },
+  "sidebar.contributionSidebar.category.开发指引": {
+    "message": "Develop guid",
+    "description": "The label for category 开发指引 in sidebar contributionSidebar"
+  }
+}

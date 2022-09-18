@@ -12,4 +12,4 @@ sidebar_position: 2
 
 ## 从源码构建
 
-请参照[**开发指引**](../contribution/development/index.md)配置环境依赖后通过源码构建。
+请参考[**构建**](../contribution/development/build.md)

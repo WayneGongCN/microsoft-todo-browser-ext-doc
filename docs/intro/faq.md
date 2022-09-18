@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# FAQ
+# 常见问题
 
 
 ### 经常弹出登陆窗口

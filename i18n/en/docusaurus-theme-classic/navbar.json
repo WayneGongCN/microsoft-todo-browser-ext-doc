@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Microsoft To Do Browser Extension",
+    "description": "The title in the navbar"
+  },
+  "item.label.简介": {
+    "message": "Intro",
+    "description": "Navbar item with label 简介"
+  },
+  "item.label.参与贡献": {
+    "message": "Contribution",
+    "description": "Navbar item with label 参与贡献"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
