@@ -16,7 +16,7 @@
     "description": "The label for link 更新日志 in sidebar introSidebar, linking to https://github.com/WayneGongCN/microsoft-todo-browser-ext/blob/main/CHANGELOG.md"
   },
   "sidebar.introSidebar.doc.反馈问题": {
-    "message": "Report bugs",
+    "message": "Report issue",
     "description": "The label for the doc item 反馈问题 in sidebar introSidebar, linking to the doc contribution/report-issues"
   },
   "sidebar.contributionSidebar.category.开发指引": {

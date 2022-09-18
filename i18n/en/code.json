@@ -254,12 +254,13 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "theme.title": {
-    "message": "Tags",
-    "description": "The title of the tag list page"
-  },
   "Microsoft To Do 浏览器扩展": {
-    "message": "Microsoft To Do Browser Extension",
-    "description": "The title of the fallback page when the page crashed"
+    "message": "Microsoft To Do Browser Extension"
+  },
+  "To Do 让你从工作到娱乐都保持专注": {
+    "message": "To Do gives you focus, from work to play. "
+  },
+  "安装": {
+    "message": "Install"
   }
 }
