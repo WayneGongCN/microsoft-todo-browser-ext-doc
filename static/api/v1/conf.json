@@ -1,6 +1,58 @@
-{
-  "sentryDsn": "https://365de3b2d6514a4caca2e06294ff74d0@o1093323.ingest.sentry.io/6112552",
-  "reportSampleRate": 0.1,
-  "gtmID": "GTM-WVNS69V",
-  "gtmEvn": ""
-}
+[
+  {
+    "type": "uninstallQuestionnaire",
+    "value": "https://forms.gle/oJFoZ1BxKKcFgaCk7"
+  },
+  
+  {
+    "type": "sentryDsn",
+    "value": "https://365de3b2d6514a4caca2e06294ff74d0@o1093323.ingest.sentry.io/6112552"
+  },
+  {
+    "type": "reportSampleRate",
+    "value": 0.1
+  },
+
+  {
+    "type": "optionFooterBadges",
+    "value": [
+      {
+        "name": "stars",
+        "img": "https://img.shields.io/github/stars/waynegongcn/microsoft-todo-browser-ext?style=social",
+        "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext"
+      },
+      {
+        "name": "issues",
+        "img": "https://img.shields.io/github/issues/waynegongcn/microsoft-todo-browser-ext?style=social",
+        "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues"
+      }
+    ]
+  },
+
+  {
+    "type": "optionFooterButtons",
+    "value": [
+      {
+        "name": "stars",
+        "img": "https://img.shields.io/github/stars/waynegongcn/microsoft-todo-browser-ext?style=social",
+        "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext"
+      },
+      {
+        "name": "issues",
+        "img": "https://img.shields.io/github/issues/waynegongcn/microsoft-todo-browser-ext?style=social",
+        "link": "https://github.com/WayneGongCN/microsoft-todo-browser-ext/issues"
+      }
+    ]
+  },
+
+  {
+    "type": "optionFooterTips",
+    "value": {
+      "content": {
+        "zh-CN": "Microsoft To Do 浏览器扩展是一款免费的开源软件，我们欢迎任何人参与贡献！",
+        "en": "The Microsoft To Do browser extension is free and open source software, and we welcome contributions from anyone!"
+      },
+      "link": "https://ms-todo.com/docs/contribution/"
+    }
+  }
+]
