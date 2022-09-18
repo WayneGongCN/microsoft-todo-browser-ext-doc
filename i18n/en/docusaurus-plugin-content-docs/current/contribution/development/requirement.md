@@ -16,7 +16,7 @@ Install **[Node.js](https://nodejs.org/) LTS version**
 
 ### Install Yarn
 
-We manage NPM dependencies via Yarn, please install [**Yarn**]((https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable))
+We manage NPM dependencies via Yarn, please install [**Yarn**](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 
 ### Install NPM packages
