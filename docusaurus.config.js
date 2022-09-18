@@ -3,12 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const DEFAULT_TITLE = 'Microsoft To Do 浏览器扩展'
 
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: DEFAULT_TITLE,
+  title: 'Microsoft To Do Browser Extension',
   // tagline: 'Dinosaurs are cool',
   url: 'https://ms-todo.com',
   baseUrl: '/',
@@ -63,9 +62,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: DEFAULT_TITLE,
+        title: 'Microsoft To Do 浏览器扩展',
         logo: {
-          alt: DEFAULT_TITLE,
+          alt: 'Microsoft To Do 浏览器扩展',
           src: 'img/favicon.ico',
         },
         items: [
@@ -99,7 +98,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       metadata: [
-        { name: 'keywords', content: DEFAULT_TITLE }
+        { name: 'keywords', content: 'Microsoft To Do 浏览器扩展' }
       ]
     }),
 };

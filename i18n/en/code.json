@@ -253,5 +253,13 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "theme.title": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "Microsoft To Do 浏览器扩展": {
+    "message": "Microsoft To Do Browser Extension",
+    "description": "The title of the fallback page when the page crashed"
   }
 }
