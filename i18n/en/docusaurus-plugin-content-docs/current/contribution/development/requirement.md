@@ -26,7 +26,7 @@ Enter to the project directory and execute **`yarn install`** to install npm dep
 
 ## environment variables
 
-Enter the project directory and execute **`cp .env.example .env`** to create an environment variable file.
+Enter the project directory and execute **`cp .env.example .env.development`** to create an environment variable file.
 
 
 ## Configure Azure application

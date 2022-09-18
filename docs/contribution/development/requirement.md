@@ -25,7 +25,14 @@ sidebar_position: 1
 
 ## 环境变量
 
-进入项目目录，执行 `cp .env.example .env`，创建环境变量文件。
+执行 `cp .env.example .env.development`，创建**开发**环境变量文件
+
+执行 `cp .env.example .env`，创建**生产**环境变量文件
+
+
+配置如下环境变量：
+- `HOME_URL`：首页地址
+- `CHROME_CLIENT_ID`：Azure 应用 ID
 
 
 ## 配置 Azure 应用
